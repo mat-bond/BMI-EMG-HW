@@ -1852,9 +1852,9 @@
 		)
 		(uuid "b1549278-2b88-4b3a-b013-507ca9eb0079")
 	)
-	(text "Removes high freqency noise."
+	(text "Removes high freqency noise. \nDO NOT PLACE: this version tests the signal quality without C4 \nso as to have higher input impedance."
 		(exclude_from_sim no)
-		(at 120.904 51.562 0)
+		(at 120.904 57.404 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
