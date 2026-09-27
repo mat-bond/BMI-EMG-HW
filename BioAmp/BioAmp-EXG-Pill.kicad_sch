@@ -6040,7 +6040,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1M"
 			(at 109.474 162.052 90)
 			(show_name no)
 			(do_not_autoplace no)
