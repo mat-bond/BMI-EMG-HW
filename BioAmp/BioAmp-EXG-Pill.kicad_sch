@@ -2420,16 +2420,16 @@
 		(uuid "1dc8f668-a60c-4140-952b-c7e66b4ab8e5")
 	)
 	(junction
-		(at 72.39 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21d0b763-4b5c-402d-be02-ef7a7e425bf2")
-	)
-	(junction
 		(at 242.824 87.884)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26904a94-e568-4c7b-b8cb-d5ec229b5f53")
+	)
+	(junction
+		(at 259.08 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2838900c-b591-42b0-a0ac-6117924e014d")
 	)
 	(junction
 		(at 81.28 171.45)
@@ -2468,10 +2468,16 @@
 		(uuid "500139a5-1a45-41d8-ae92-a3198af21466")
 	)
 	(junction
-		(at 54.61 46.99)
+		(at 46.99 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "501b8da7-10a5-4022-bab1-f4528e1989f2")
+		(uuid "650feb14-8a4d-470a-81f9-42d790ec01a4")
+	)
+	(junction
+		(at 77.47 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "707b827b-a7af-4a97-8d38-1d840e9db314")
 	)
 	(junction
 		(at 102.87 153.924)
@@ -2492,19 +2498,31 @@
 		(uuid "83aa6d59-2553-4c2e-9f48-36235b7b4858")
 	)
 	(junction
-		(at 95.25 46.99)
+		(at 247.65 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "845a09af-405d-4665-bdaa-bc90437fcabd")
+	)
+	(junction
+		(at 219.71 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf5d87f-325a-4c9f-a8ed-1c8e7e762183")
+	)
+	(junction
+		(at 101.6 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a460135f-ea7a-4ad8-9640-23b3c62abc5b")
 	)
 	(junction
-		(at 78.74 49.53)
+		(at 72.39 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aade8911-8841-4a8c-ae93-2b01b8e8c18c")
+		(uuid "ad4dc0f0-ee16-427b-8326-a0fe064dff0a")
 	)
 	(junction
-		(at 80.01 44.45)
+		(at 86.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b90872d4-d630-410c-8132-7f641bb131f8")
@@ -2521,6 +2539,16 @@
 		(color 0 0 0 0)
 		(uuid "f364db31-1549-45e5-978b-b2886695dd78")
 	)
+	(wire
+		(pts
+			(xy 259.08 36.83) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bc0079-170f-4a4d-9d57-6bad8a88f59f")
+	)
 	(polyline
 		(pts
 			(xy 177.038 166.116) (xy 177.038 24.892)
@@ -2533,7 +2561,27 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 46.99) (xy 97.282 46.99)
+			(xy 77.47 49.53) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02696587-8323-4f9f-8815-436231afbd63")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045d8497-fb78-4698-9d4e-3c244fb35aa5")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 103.632 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2583,23 +2631,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 77.47 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b59e03-af69-41f8-b86c-2dc11878b060")
-	)
-	(wire
-		(pts
-			(xy 91.44 35.306) (xy 95.25 35.306)
+			(xy 97.79 35.306) (xy 101.6 35.306)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "146e771d-54fc-4ba1-af61-dbca32e2750f")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 78.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e97f6a-8724-4e9d-9b5d-01e98a1c2565")
 	)
 	(wire
 		(pts
@@ -2663,7 +2711,27 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 39.624) (xy 249.682 39.624)
+			(xy 251.46 54.61) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2546658a-af00-4e95-ac1f-c08353f5c2cf")
+	)
+	(wire
+		(pts
+			(xy 247.65 39.37) (xy 247.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cf9916-59a1-48c5-a4c6-2c30f70cc5df")
+	)
+	(wire
+		(pts
+			(xy 245.11 39.37) (xy 247.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2703,6 +2771,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 31.75) (xy 219.71 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e2a33e-c8ca-47c7-a911-70cf26f1ea07")
+	)
+	(wire
+		(pts
 			(xy 84.836 158.75) (xy 87.63 158.75)
 		)
 		(stroke
@@ -2713,13 +2791,33 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 57.15 46.99)
+			(xy 240.03 46.99) (xy 240.03 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a17a05f-bc4b-4e6c-94b9-d121859f9ee0")
+		(uuid "452da662-6595-4591-860b-16c068334193")
+	)
+	(wire
+		(pts
+			(xy 254 54.61) (xy 251.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d078bb-c3a0-4e47-8208-0472777b2105")
+	)
+	(wire
+		(pts
+			(xy 245.11 36.83) (xy 259.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c73cd00-9e31-415b-b7eb-db2628d3bb6d")
 	)
 	(polyline
 		(pts
@@ -2783,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 78.74 52.07)
+			(xy 77.47 49.53) (xy 77.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2911,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.122 42.164) (xy 219.71 42.164)
+			(xy 247.65 39.37) (xy 250.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb57fa2-bcb0-4071-a01b-39558382d1bd")
+	)
+	(wire
+		(pts
+			(xy 214.122 41.91) (xy 219.71 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2843,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 26.67) (xy 213.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba2464e-c0cb-421f-9bfb-8fc3335229ee")
+	)
+	(wire
+		(pts
 			(xy 67.31 99.314) (xy 72.136 99.314)
 		)
 		(stroke
@@ -2853,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 54.61 46.99)
+			(xy 44.45 46.99) (xy 46.99 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 54.61) (xy 46.99 55.88)
+			(xy 39.37 54.61) (xy 39.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2963,13 +3081,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 35.306) (xy 83.82 35.306)
+			(xy 86.36 35.306) (xy 90.17 35.306)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82a54934-c6dc-48e7-bf75-32ebc7cdce08")
+	)
+	(wire
+		(pts
+			(xy 209.55 39.37) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b4fe69-41ba-46bb-a064-267c12888e8f")
 	)
 	(wire
 		(pts
@@ -2993,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 46.99 54.61)
+			(xy 41.91 54.61) (xy 39.37 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3053,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 44.45) (xy 72.39 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9263b78c-4996-4bbd-9df0-ee4ee65a6191")
+	)
+	(wire
+		(pts
 			(xy 84.836 153.924) (xy 84.836 158.75)
 		)
 		(stroke
@@ -3083,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 71.12 58.42)
+			(xy 69.85 57.15) (xy 69.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3153,16 +3291,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 37.084) (xy 249.428 37.084)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b57591d7-3c1d-4524-a40a-bda1b514664c")
-	)
-	(wire
-		(pts
 			(xy 255.778 118.872) (xy 260.35 118.872)
 		)
 		(stroke
@@ -3173,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 35.306) (xy 80.01 44.45)
+			(xy 86.36 35.306) (xy 86.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3213,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 35.306) (xy 95.25 46.99)
+			(xy 101.6 35.306) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3233,6 +3361,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 30.48) (xy 219.71 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c34ca4-c7f3-4661-9b0b-f41eb654d689")
+	)
+	(wire
+		(pts
+			(xy 219.71 31.75) (xy 219.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4faa959-f5e2-432f-b617-e686d7609b3d")
+	)
+	(wire
+		(pts
 			(xy 109.22 167.64) (xy 109.22 168.91)
 		)
 		(stroke
@@ -3243,23 +3391,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 49.53) (xy 78.74 49.53)
+			(xy 259.08 36.83) (xy 260.35 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db5b55bf-66c3-4463-972e-bb58ffe91fb3")
-	)
-	(wire
-		(pts
-			(xy 249.682 39.624) (xy 249.682 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db952eb0-7a9e-4fe4-8184-cd3ed427afe1")
+		(uuid "d8366fab-f282-4565-b957-869459bde121")
 	)
 	(wire
 		(pts
@@ -3303,7 +3441,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 54.61 49.53)
+			(xy 242.57 46.99) (xy 240.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c76c60-5a6e-4dc8-88d7-4a36244dd507")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 46.99 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3320,6 +3468,16 @@
 			(type default)
 		)
 		(uuid "ebed2f20-bb30-4377-b7b0-6219a4b79310")
+	)
+	(wire
+		(pts
+			(xy 213.36 24.13) (xy 212.09 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed56879c-817d-4b8b-a5ac-fe9bb70f7716")
 	)
 	(wire
 		(pts
@@ -3363,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 57.15) (xy 71.12 57.15)
+			(xy 72.39 57.15) (xy 69.85 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4878,7 +5036,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 249.682 40.64 0)
+		(at 250.19 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4888,7 +5046,7 @@
 		)
 		(uuid "41aabb28-4cfe-4e45-b9d0-01b97170dffe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.4731 40.64 0)
+			(at 256.9811 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,7 +5060,7 @@
 	)
 	(global_label "bpfOUT"
 		(shape input)
-		(at 214.122 42.164 180)
+		(at 214.122 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4912,7 +5070,7 @@
 		)
 		(uuid "42adb7aa-55b3-4a93-a3f4-64830e53b372")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.1387 42.164 0)
+			(at 205.1387 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5022,7 +5180,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 249.428 37.084 0)
+		(at 260.35 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5032,7 +5190,7 @@
 		)
 		(uuid "773a8818-6c96-4642-97ab-78d18da8eb8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.2796 37.084 0)
+			(at 267.2016 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5251,7 @@
 	)
 	(global_label "inaOUT"
 		(shape input)
-		(at 97.282 46.99 0)
+		(at 103.632 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5103,7 +5261,7 @@
 		)
 		(uuid "82f7b540-903e-47bd-8f76-921af6495ff7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1444 46.99 0)
+			(at 112.4944 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +5299,7 @@
 	)
 	(global_label "IN+"
 		(shape input)
-		(at 77.47 49.53 180)
+		(at 74.93 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5151,7 +5309,7 @@
 		)
 		(uuid "afbc5cfd-a189-4a50-99d8-21f88f4e0197")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.6313 49.53 0)
+			(at 69.0913 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5212,7 +5370,7 @@
 	)
 	(global_label "IN-"
 		(shape input)
-		(at 49.53 46.99 180)
+		(at 44.45 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5222,7 +5380,7 @@
 		)
 		(uuid "dc75024a-74ac-41a3-808a-abba19cccb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.6913 46.99 0)
+			(at 38.6113 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5466,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 87.63 46.99 0)
+		(at 93.98 46.99 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -5319,7 +5477,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000601003d3")
 		(property "Reference" "U1"
-			(at 89.662 51.054 0)
+			(at 96.012 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5329,7 +5487,7 @@
 			)
 		)
 		(property "Value" "Amp"
-			(at 86.36 47.244 0)
+			(at 92.71 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5339,7 +5497,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 86.36 49.53 0)
+			(at 92.71 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5350,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 88.9 52.07 0)
+			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 46.99 0)
+			(at 93.98 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5769,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 44.45 270)
+		(at 82.55 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5779,7 +5937,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060117bdc")
 		(property "Reference" "R7"
-			(at 76.2 42.418 90)
+			(at 82.55 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5789,7 +5947,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 76.454 44.45 90)
+			(at 82.804 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5799,7 +5957,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.2 42.672 90)
+			(at 82.55 42.672 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,7 +5968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,7 +5979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 44.45 0)
+			(at 82.55 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6003,7 +6161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 35.306 270)
+		(at 93.98 35.306 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6013,7 +6171,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060122971")
 		(property "Reference" "R10"
-			(at 87.63 33.274 90)
+			(at 93.98 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6023,7 +6181,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 87.63 35.306 90)
+			(at 93.98 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6033,7 +6191,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.63 33.528 90)
+			(at 93.98 33.528 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6044,7 +6202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 35.306 0)
+			(at 93.98 35.306 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6055,7 +6213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 35.306 0)
+			(at 93.98 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7705,7 +7863,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 39.624 270)
+		(at 209.55 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7715,7 +7873,7 @@
 		(dnp no)
 		(uuid "0788bdd2-86fe-4933-aa67-04cb817f27ff")
 		(property "Reference" "#PWR010"
-			(at 213.36 39.624 0)
+			(at 203.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +7884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 39.624 0)
+			(at 205.74 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7736,7 +7894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 39.624 0)
+			(at 209.55 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7747,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 39.624 0)
+			(at 209.55 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7758,7 +7916,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 39.624 0)
+			(at 209.55 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7781,7 +7939,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD1E05U06DPY")
-		(at 54.61 54.61 180)
+		(at 46.99 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7792,7 +7950,7 @@
 		(fields_autoplaced yes)
 		(uuid "096e179e-f86e-4b65-834a-a67cd4ceaf92")
 		(property "Reference" "U3"
-			(at 58.42 52.7684 0)
+			(at 50.8 52.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7803,7 +7961,7 @@
 			)
 		)
 		(property "Value" "TPD1E05U06DPY"
-			(at 58.42 55.3084 0)
+			(at 50.8 55.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7814,7 +7972,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
-			(at 52.07 50.165 0)
+			(at 44.45 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7827,7 +7985,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
-			(at 52.07 48.26 0)
+			(at 44.45 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,7 +7997,7 @@
 			)
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2"
-			(at 54.61 54.61 0)
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +8110,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD1E05U06DPY")
-		(at 78.74 57.15 180)
+		(at 77.47 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7963,7 +8121,7 @@
 		(fields_autoplaced yes)
 		(uuid "1125b9e9-d184-447f-9ed9-c251f851b582")
 		(property "Reference" "U4"
-			(at 82.55 55.3084 0)
+			(at 81.28 55.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7974,7 +8132,7 @@
 			)
 		)
 		(property "Value" "TPD1E05U06DPY"
-			(at 82.55 57.8484 0)
+			(at 81.28 57.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7985,7 +8143,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
-			(at 76.2 52.705 0)
+			(at 74.93 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +8156,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
-			(at 76.2 50.8 0)
+			(at 74.93 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8010,7 +8168,7 @@
 			)
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2"
-			(at 78.74 57.15 0)
+			(at 77.47 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8438,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 219.71 37.084 0)
+		(at 219.71 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8290,7 +8448,7 @@
 		(dnp no)
 		(uuid "440dcacf-377f-44da-8781-b2b97e8cb595")
 		(property "Reference" "#PWR09"
-			(at 219.71 40.894 0)
+			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8301,7 +8459,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 217.678 33.274 0)
+			(at 217.678 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8312,7 +8470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 37.084 0)
+			(at 219.71 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8323,7 +8481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 37.084 0)
+			(at 219.71 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +8492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 37.084 0)
+			(at 219.71 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8358,7 +8516,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 46.99 55.88 0)
+		(at 39.37 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8369,7 +8527,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b7e217e-d835-4698-a6eb-6a404a16c56b")
 		(property "Reference" "#PWR013"
-			(at 46.99 62.23 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,7 +8538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 60.96 0)
+			(at 39.37 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8390,7 +8548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 55.88 0)
+			(at 39.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8401,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 55.88 0)
+			(at 39.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 55.88 0)
+			(at 39.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,7 +8594,7 @@
 	)
 	(symbol
 		(lib_id "MCP3221A4T-E_OT:MCP3221A4T-E_OT")
-		(at 219.71 37.084 0)
+		(at 219.71 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8447,7 +8605,7 @@
 		(fields_autoplaced yes)
 		(uuid "581d1524-77f2-4cd6-b2e3-4d120506ca8a")
 		(property "Reference" "IC1"
-			(at 232.41 29.21 0)
+			(at 232.41 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8457,7 +8615,7 @@
 			)
 		)
 		(property "Value" "MCP3221A4T-E_OT"
-			(at 232.41 31.75 0)
+			(at 232.41 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8467,7 +8625,7 @@
 			)
 		)
 		(property "Footprint" "ADC:SOT95P280X145-5N"
-			(at 241.3 132.004 0)
+			(at 241.3 131.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20001732E.pdf"
-			(at 241.3 232.004 0)
+			(at 241.3 231.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8649,7 @@
 			)
 		)
 		(property "Description" "Analog to Digital Converters - ADC 12-bit ADC I2C Single Channel"
-			(at 219.71 37.084 0)
+			(at 219.71 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8502,7 +8660,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 241.3 432.004 0)
+			(at 241.3 431.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8514,7 +8672,7 @@
 			)
 		)
 		(property "Mouser Part Number" "579-MCP3221A4T-E/OT"
-			(at 241.3 532.004 0)
+			(at 241.3 531.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8526,7 +8684,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3221A4T-E-OT?qs=uHi2%2FQoPa5A0hdg9CKvRxA%3D%3D"
-			(at 241.3 632.004 0)
+			(at 241.3 631.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8538,7 +8696,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 241.3 732.004 0)
+			(at 241.3 731.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8708,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCP3221A4T-E/OT"
-			(at 241.3 832.004 0)
+			(at 241.3 831.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8580,6 +8738,249 @@
 			(project "BioAmp-EXG-Pill"
 				(path "/6820f13c-3971-4615-b87b-c2f927031906"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 240.03 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c08dce5-0c70-4760-8559-18464d696c21")
+		(property "Reference" "#PWR016"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02953fd1-2cdc-42f7-8810-c51e919fe86a")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 251.46 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7443451e-0e8d-4308-af80-4538b2f6949a")
+		(property "Reference" "#PWR017"
+			(at 251.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e30f119-af30-4452-a9c7-2f25fc55b5dc")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TPD1E05U06DPY")
+		(at 247.65 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745573b6-c7fc-453a-b89a-b1874b29ff03")
+		(property "Reference" "U6"
+			(at 251.46 45.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPY"
+			(at 251.46 47.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+			(at 245.11 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+			(at 245.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2"
+			(at 247.65 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bca87fc8-7839-4c3a-ae46-f853b48448de")
+		)
+		(pin "2"
+			(uuid "588226af-c452-4521-b802-74e134e03137")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8779,7 +9180,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 71.12 58.42 0)
+		(at 69.85 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8790,7 +9191,7 @@
 		(fields_autoplaced yes)
 		(uuid "a543221a-da33-4e2d-b71d-37f9cccdc161")
 		(property "Reference" "#PWR014"
-			(at 71.12 64.77 0)
+			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8801,7 +9202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 63.5 0)
+			(at 69.85 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8811,7 +9212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 58.42 0)
+			(at 69.85 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8822,7 +9223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 58.42 0)
+			(at 69.85 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,7 +9234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 58.42 0)
+			(at 69.85 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,6 +9336,410 @@
 			(project "BioAmp-EXG-Pill"
 				(path "/6820f13c-3971-4615-b87b-c2f927031906"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf6b21da-20ce-45ca-9baf-6786e3a619e3")
+		(property "Reference" "R6"
+			(at 53.34 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 53.34 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 53.34 45.212 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "984fb814-c20f-4401-adbe-3c07e4cc9c66")
+		)
+		(pin "2"
+			(uuid "7e2c0fc6-ebb7-4dd8-aa3f-ee00472d4c3e")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da10b009-e66e-4031-a63c-cca32aa1679f")
+		(property "Reference" "R12"
+			(at 82.55 47.498 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 82.55 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 82.55 47.752 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da53cabe-6960-4cb8-b64c-64b83ba9fc0a")
+		)
+		(pin "2"
+			(uuid "c4e5a41e-e826-4abd-810b-24ad1408469f")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TPD1E05U06DPY")
+		(at 259.08 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5c4aa9-e248-48c0-a286-3fceb332b799")
+		(property "Reference" "U7"
+			(at 262.89 52.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPY"
+			(at 262.89 55.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+			(at 256.54 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2"
+			(at 259.08 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b96afce8-05c1-417c-add6-f6f710cd6443")
+		)
+		(pin "2"
+			(uuid "cf3db908-7a79-4a66-8151-29243135174f")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 212.09 24.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb72f9b4-3090-4997-923d-90fc1e943567")
+		(property "Reference" "#PWR018"
+			(at 205.74 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d9c35f2-a25d-448b-932c-723e59e5a52d")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TPD1E05U06DPY")
+		(at 213.36 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f71d67be-4b7d-4feb-80ef-a4e478f8e691")
+		(property "Reference" "U8"
+			(at 207.518 33.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPY"
+			(at 195.326 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+			(at 217.805 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+			(at 219.71 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2"
+			(at 213.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "295d820a-98d5-4df0-804d-c19b630dfd01")
+		)
+		(pin "2"
+			(uuid "fd7c0fbd-57cd-4d2f-ad10-b15fb2065cbc")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "U8")
 					(unit 1)
 				)
 			)
