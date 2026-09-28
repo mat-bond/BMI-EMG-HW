@@ -7034,7 +7034,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10pF"
 			(at 136.652 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
