@@ -1776,7 +1776,7 @@
 		)
 		(uuid "0e2fb5ee-9a73-4fb0-9f5f-a5b8b3d3612d")
 	)
-	(text "180x Gain Bandpass Filter"
+	(text "73x Gain Bandpass Filter [20 Hz, 500 Hz]"
 		(exclude_from_sim no)
 		(at 64.77 131.572 0)
 		(effects
@@ -1788,17 +1788,6 @@
 			(justify left bottom)
 		)
 		(uuid "106203d1-9898-4037-b99a-603d038138e9")
-	)
-	(text "Create solder joint on JP1 to increase the Band Pass freqnecny range\nDefault: Narrow input frequency band, use when recording EEG, EOG\nConfigured: Wide input frequency band, use for ECG, EMG, and EOG"
-		(exclude_from_sim no)
-		(at 26.162 82.804 0)
-		(effects
-			(font
-				(size 1.4986 1.4986)
-			)
-			(justify left bottom)
-		)
-		(uuid "17c3eff9-1813-4f10-a36c-802393a38b01")
 	)
 	(text "Header pins / Connectors"
 		(exclude_from_sim no)
@@ -5572,7 +5561,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "4.3nF"
 			(at 63.5 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 63.246 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "8.2uF"
 			(at 49.53 107.1626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,7 +6803,7 @@
 				)
 			)
 		)
-		(property "Value" "220K"
+		(property "Value" "270k"
 			(at 63.5 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
