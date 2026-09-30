@@ -3141,7 +3141,7 @@
 		(uuid "118adca1-8617-4176-8ed2-1e27788174f3")
 	)
 	(junction
-		(at 93.98 44.45)
+		(at 87.63 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b3f65a7-bd52-4693-a6b8-e59dfcb22ba6")
@@ -3243,12 +3243,6 @@
 		(uuid "7c92f0b6-3bb8-43f2-826d-4884595f01ee")
 	)
 	(junction
-		(at 92.71 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "836c0753-b5f7-40ef-baea-34c053c07b7d")
-	)
-	(junction
 		(at 94.742 99.822)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3267,7 +3261,7 @@
 		(uuid "993e07bd-2f31-40f4-b335-0ed3c0926f4d")
 	)
 	(junction
-		(at 109.22 46.99)
+		(at 102.87 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a460135f-ea7a-4ad8-9640-23b3c62abc5b")
@@ -3295,6 +3289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4a18b0-916d-48bd-b545-d09b582624d6")
+	)
+	(junction
+		(at 86.36 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfad9e50-f865-41e8-bb97-a2e27a9dde58")
 	)
 	(junction
 		(at 256.54 90.424)
@@ -3350,16 +3350,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 49.53) (xy 76.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02696587-8323-4f9f-8815-436231afbd63")
-	)
-	(wire
-		(pts
 			(xy 212.09 92.964) (xy 257.302 92.964)
 		)
 		(stroke
@@ -3380,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 93.98 49.53)
+			(xy 86.36 49.53) (xy 87.63 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3380,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 111.252 46.99)
+			(xy 102.87 46.99) (xy 104.902 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 85.09 57.15)
+			(xy 81.28 57.15) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3530,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 35.306) (xy 109.22 35.306)
+			(xy 99.06 35.306) (xy 102.87 35.306)
 		)
 		(stroke
 			(width 0)
@@ -3700,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 44.45) (xy 93.98 44.45)
+			(xy 83.82 44.45) (xy 87.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3720,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 49.53) (xy 85.09 49.53)
+			(xy 77.47 49.53) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 57.15) (xy 85.09 58.42)
+			(xy 78.74 57.15) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3990,16 +3980,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 46.99) (xy 38.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1b50dc-0ec8-4d9b-83e6-e9d1163ca00d")
-	)
-	(wire
-		(pts
 			(xy 197.358 87.884) (xy 237.49 87.884)
 		)
 		(stroke
@@ -4170,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 92.71 52.07)
+			(xy 86.36 49.53) (xy 86.36 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 35.306) (xy 97.79 35.306)
+			(xy 87.63 35.306) (xy 91.44 35.306)
 		)
 		(stroke
 			(width 0)
@@ -4310,7 +4290,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 161.29) (xy 124.46 161.29)
+			(xy 113.03 161.29) (xy 115.57 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4510,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 35.306) (xy 93.98 44.45)
+			(xy 87.63 35.306) (xy 87.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4560,7 +4540,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 35.306) (xy 109.22 46.99)
+			(xy 102.87 35.306) (xy 102.87 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4757,16 +4737,6 @@
 			(type dash)
 		)
 		(uuid "f668eaf1-4613-4cd1-a386-0f7cd4c3b829")
-	)
-	(wire
-		(pts
-			(xy 113.03 161.29) (xy 114.3 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea70272-1b33-4645-8204-64b7abb65428")
 	)
 	(wire
 		(pts
@@ -6508,7 +6478,7 @@
 	)
 	(global_label "inaOUT"
 		(shape input)
-		(at 111.252 46.99 0)
+		(at 104.902 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6518,7 +6488,7 @@
 		)
 		(uuid "82f7b540-903e-47bd-8f76-921af6495ff7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.1144 46.99 0)
+			(at 113.7644 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +6526,7 @@
 	)
 	(global_label "IN+"
 		(shape input)
-		(at 73.66 49.53 180)
+		(at 77.47 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6566,7 +6536,7 @@
 		)
 		(uuid "afbc5cfd-a189-4a50-99d8-21f88f4e0197")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8213 49.53 0)
+			(at 71.6313 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +6621,7 @@
 	)
 	(global_label "IN-"
 		(shape input)
-		(at 35.56 46.99 180)
+		(at 45.72 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6661,7 +6631,7 @@
 		)
 		(uuid "dc75024a-74ac-41a3-808a-abba19cccb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.7213 46.99 0)
+			(at 39.8813 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6693,7 @@
 	)
 	(global_label "DRL"
 		(shape input)
-		(at 124.46 161.29 0)
+		(at 115.57 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6733,7 +6703,7 @@
 		)
 		(uuid "ed8838f6-2ba0-4bb2-9a73-d8f496bb1e13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3591 161.29 0)
+			(at 121.4691 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +6765,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 101.6 46.99 0)
+		(at 95.25 46.99 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -6806,7 +6776,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000601003d3")
 		(property "Reference" "U1"
-			(at 103.632 51.054 0)
+			(at 97.282 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6816,7 +6786,7 @@
 			)
 		)
 		(property "Value" "Amp"
-			(at 100.33 47.244 0)
+			(at 93.98 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6826,7 +6796,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 100.33 49.53 0)
+			(at 93.98 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6837,7 +6807,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 102.87 52.07 0)
+			(at 96.52 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6848,7 +6818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 46.99 0)
+			(at 95.25 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7490,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 35.306 270)
+		(at 95.25 35.306 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7500,7 +7470,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060122971")
 		(property "Reference" "R10"
-			(at 101.6 33.274 90)
+			(at 95.25 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7510,7 +7480,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 101.6 35.306 90)
+			(at 95.25 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7520,7 +7490,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 101.6 33.528 90)
+			(at 95.25 33.528 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 35.306 0)
+			(at 95.25 35.306 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +7512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 35.306 0)
+			(at 95.25 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9042,7 +9012,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 49.53 270)
+		(at 82.55 49.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9052,7 +9022,7 @@
 		(dnp no)
 		(uuid "00afc23b-716c-4190-a727-7b7d5d187922")
 		(property "Reference" "R14"
-			(at 88.9 47.498 90)
+			(at 82.55 47.498 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9061,8 +9031,8 @@
 				)
 			)
 		)
-		(property "Value" "470k"
-			(at 88.9 49.53 90)
+		(property "Value" "1M"
+			(at 82.55 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9072,7 +9042,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 88.9 47.752 90)
+			(at 82.55 47.752 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +9053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 49.53 0)
+			(at 82.55 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9094,7 +9064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 49.53 0)
+			(at 82.55 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9113,84 +9083,6 @@
 			(project "BioAmp-EXG-Pill"
 				(path "/6820f13c-3971-4615-b87b-c2f927031906"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 161.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "080a45a1-fde3-4586-8878-a121f86a8f17")
-		(property "Reference" "R20"
-			(at 118.11 159.258 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 118.11 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.11 159.512 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f128acd-8220-4426-a2b7-f92d6b4c2db4")
-		)
-		(pin "2"
-			(uuid "1d1c687d-8145-4b26-b27b-1591e67638b2")
-		)
-		(instances
-			(project "BioAmp-EXG-Pill"
-				(path "/6820f13c-3971-4615-b87b-c2f927031906"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9956,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "1M"
 			(at 50.8 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,87 +10312,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 49.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "448fe24c-5b22-407a-af6b-97b8452541bd")
-		(property "Reference" "R15"
-			(at 80.01 47.498 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 80.01 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.01 47.752 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "815b8271-a9cb-49ab-8240-967d951742b5")
-		)
-		(pin "2"
-			(uuid "cf16e0c5-bbd3-46b6-aab6-126ffb61b2cc")
-		)
-		(instances
-			(project "BioAmp-EXG-Pill"
-				(path "/6820f13c-3971-4615-b87b-c2f927031906"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 85.09 58.42 0)
+		(at 78.74 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10511,7 +10325,7 @@
 		(fields_autoplaced yes)
 		(uuid "44aada89-a4a7-4013-bc02-78289347c170")
 		(property "Reference" "#PWR014"
-			(at 85.09 64.77 0)
+			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10522,7 +10336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 63.5 0)
+			(at 78.74 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10532,7 +10346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 58.42 0)
+			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10543,7 +10357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 58.42 0)
+			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10554,7 +10368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 58.42 0)
+			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +11259,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD1E05U06DPY")
-		(at 92.71 57.15 180)
+		(at 86.36 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11456,7 +11270,7 @@
 		(fields_autoplaced yes)
 		(uuid "936cb394-4b5e-450d-8302-e6f6e0210b60")
 		(property "Reference" "U4"
-			(at 96.52 56.5784 0)
+			(at 90.17 56.5784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11467,7 +11281,7 @@
 			)
 		)
 		(property "Value" "TPD1E05U06DPY"
-			(at 96.52 57.8484 0)
+			(at 90.17 57.8484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +11293,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
-			(at 90.17 52.705 0)
+			(at 83.82 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11492,7 +11306,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
-			(at 90.17 50.8 0)
+			(at 83.82 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11504,7 +11318,7 @@
 			)
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2"
-			(at 92.71 57.15 0)
+			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,7 +11443,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "1M"
 			(at 109.22 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12165,84 +11979,6 @@
 			(project "BioAmp-EXG-Pill"
 				(path "/6820f13c-3971-4615-b87b-c2f927031906"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 41.91 46.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf6b21da-20ce-45ca-9baf-6786e3a619e3")
-		(property "Reference" "R6"
-			(at 41.91 44.958 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 41.91 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 41.91 45.212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "984fb814-c20f-4401-adbe-3c07e4cc9c66")
-		)
-		(pin "2"
-			(uuid "7e2c0fc6-ebb7-4dd8-aa3f-ee00472d4c3e")
-		)
-		(instances
-			(project "BioAmp-EXG-Pill"
-				(path "/6820f13c-3971-4615-b87b-c2f927031906"
-					(reference "R6")
 					(unit 1)
 				)
 			)
