@@ -423,228 +423,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3638,6 +3416,10 @@
 		(color 0 0 0 0)
 		(uuid "f8268323-6f6d-4787-a69e-0ed6b8ae1d4c")
 	)
+	(no_connect
+		(at 257.81 149.86)
+		(uuid "0698a38d-fe62-43f5-a757-01ade49bdbb6")
+	)
 	(wire
 		(pts
 			(xy 195.58 87.63) (xy 237.49 87.63)
@@ -4280,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 144.78) (xy 248.92 144.78)
+			(xy 257.81 144.78) (xy 260.35 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4580,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 147.32) (xy 248.92 147.32)
+			(xy 257.81 147.32) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4700,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 142.24) (xy 248.92 142.24)
+			(xy 257.81 142.24) (xy 260.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6731,7 +6513,7 @@
 	)
 	(global_label "DRL"
 		(shape input)
-		(at 248.92 147.32 0)
+		(at 260.35 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6741,7 +6523,7 @@
 		)
 		(uuid "5427ebf0-c557-4269-b015-e33b12212418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.8191 147.32 0)
+			(at 266.2491 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,7 +6585,7 @@
 	)
 	(global_label "IN+"
 		(shape input)
-		(at 248.92 144.78 0)
+		(at 260.35 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6813,7 +6595,7 @@
 		)
 		(uuid "7966c286-5356-4999-ad5c-f100240d904e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.7587 144.78 0)
+			(at 266.1887 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +6823,7 @@
 	)
 	(global_label "IN-"
 		(shape input)
-		(at 248.92 142.24 0)
+		(at 260.35 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7051,7 +6833,7 @@
 		)
 		(uuid "e433b239-720c-417b-9dec-587a2d421042")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.7587 142.24 0)
+			(at 266.1887 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,6 +10841,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 252.73 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8615e504-909b-496a-afda-ad7c4ee4989f")
+		(property "Reference" "J1"
+			(at 253.365 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 253.365 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal"
+			(at 252.73 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 252.73 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "da3ff5be-1e77-40b3-b620-6da4b5953cd8")
+		)
+		(pin "2"
+			(uuid "7f861352-ca85-49c4-bcd9-467d6d29d597")
+		)
+		(pin "3"
+			(uuid "0cc7e2e2-419f-4593-a1f1-7734a232835d")
+		)
+		(pin "1"
+			(uuid "6a68a55d-db71-48ec-8b70-265173d471e7")
+		)
+		(instances
+			(project "BioAmp-EXG-Pill"
+				(path "/6820f13c-3971-4615-b87b-c2f927031906"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 114.3 167.64 270)
 		(unit 1)
@@ -13292,89 +13160,6 @@
 			(project "BioAmp-EXG-Pill"
 				(path "/6820f13c-3971-4615-b87b-c2f927031906"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 241.3 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc603ba7-72c9-4bdf-9d45-bc76ee8a4662")
-		(property "Reference" "J1"
-			(at 241.935 137.414 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 241.935 139.954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal"
-			(at 241.3 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 241.3 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32c2b92e-9e5c-45eb-8b57-81ee4b6cb359")
-		)
-		(pin "3"
-			(uuid "6be0d6fa-03ca-4899-a086-f066e9e54651")
-		)
-		(pin "2"
-			(uuid "20fd6327-9c8d-4af8-a534-0bd42b74cefa")
-		)
-		(instances
-			(project "BioAmp-EXG-Pill"
-				(path "/6820f13c-3971-4615-b87b-c2f927031906"
-					(reference "J1")
 					(unit 1)
 				)
 			)
