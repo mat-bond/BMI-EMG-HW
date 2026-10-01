@@ -3023,7 +3023,7 @@
 				)
 			)
 		)
-		(property "Value" "Amp"
+		(property "Value" "TL074HIPWR"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "9b274a26-fc1f-4799-90eb-f86b1fe93f70")
@@ -3251,7 +3251,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1A-+)")
+			(net "/IN-_Prot")
 			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "403a4ac8-0a43-472a-b64b-abb0a4f3449a")
@@ -3271,7 +3271,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1B-+)")
+			(net "/IN+_Prot")
 			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "479241b9-359d-45eb-a053-c4c66fba41e7")
@@ -3558,7 +3558,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "IN+")
+			(net "/IN+_Prot")
 			(pintype "passive")
 			(uuid "896caa8f-d35b-4c31-bf8b-a3c98da69d34")
 		)
@@ -3567,7 +3567,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "IN-")
+			(net "/IN-_Prot")
 			(pintype "passive")
 			(uuid "74aa6c8d-bc7e-4512-baa7-2ca6681f9757")
 		)
@@ -3641,7 +3641,6 @@
 			)
 		)
 		(property ki_fp_filters "Texas*DPY0002A*")
-		(path "/1117bdae-5b2b-408b-8dad-6d798f4df5e6")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -3816,7 +3815,6 @@
 			)
 		)
 		(property ki_fp_filters "Texas*DPY0002A*")
-		(path "/600d4cf2-0646-467b-80db-59aab62d27fd")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -3923,6 +3921,191 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "0e4e7845-48e6-4b82-8758-b6c9d93f02bb")
+		(at 184.8975 93.76)
+		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "diode")
+		(property "Reference" "D4"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "de41f598-0fcb-482d-849e-21c61582678b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "bdab9627-a3c2-4c3d-887c-d6beaab1035d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df62f46d-a84b-4c02-bf0c-516b9d307fb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdbf6b92-11f7-4cba-8bdb-3fba9a0a07ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c614305b-9642-4d7e-b5b1-6c9b046c9b41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/587ab103-c219-465a-9441-54399eba89ba")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -0.86 0)
+			(end -0.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b9892ff2-3fe4-4f50-9475-ce041970c716")
+		)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1cf3f730-046e-431c-900b-4ca7f41bf9b0")
+		)
+		(fp_line
+			(start -0.2 0.15)
+			(end -0.2 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3f71d6c-f007-4bd9-9ac1-8b2e38c0e79a")
+		)
+		(fp_line
+			(start -0.1 0.15)
+			(end -0.1 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8e9bf198-73cd-4ded-85c9-b3bb69ee8433")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c251f40c-2ba2-4fc3-b0a8-aecbe98237d3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "267efbcc-212b-4e77-bd43-a81f0c32db97")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "d53a3533-cad7-46cb-b441-830b045ae502")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "77e451e4-71d8-4bc6-bb6f-7d6268c1811a")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "VCC")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "89a0f70d-2816-495c-97e4-9ed393907a0d")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "cb83f36a-5505-4797-ac20-56234e484782")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4267,7 +4450,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "500k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "96eafa8c-9c6e-494a-bb27-8b51507d0d3b")
@@ -4382,7 +4565,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1A-+)")
+			(net "Net-(D1-K)")
 			(pintype "passive")
 			(uuid "7865c742-1c84-4ba7-ac9a-cb69fd50455d")
 		)
@@ -4687,13 +4870,13 @@
 	(footprint "MAX1169:SOP65P640X110-14N"
 		(layer "F.Cu")
 		(uuid "340e7dcf-a6ea-42dd-a3e3-441bb3035f38")
-		(at 176.662 89.55 180)
+		(at 176.6 89.4 180)
 		(descr "14 TSSOP--_")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "0755833a-82ba-4dcd-ad17-1251c494c9d5")
+			(uuid "5cbcf93f-bb32-427d-92b2-67eedc3c33b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4888,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "039bbbf6-9897-411c-a18c-6f2a26c9697a")
+			(uuid "fc92553c-79e9-4865-96fb-c5d3945dfa5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4900,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e778c888-0590-4e12-8669-2081beba7a2e")
+			(uuid "781d2006-aa98-4d03-86bb-42b94de56ddd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4911,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b418be1-6054-4c8b-b09a-0e38938803e0")
+			(uuid "83a81978-0bd6-4a36-87f1-2d535fbc85b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,6 +5967,191 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "5f9ffc7c-f473-4f0b-8fbd-47874efd9219")
+		(at 184.8975 90.26)
+		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "diode")
+		(property "Reference" "D2"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "acfe1abe-e75e-4163-90af-f2b4b19d0dc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "4d2227b1-931a-4f28-906a-5b2b6ddd7a5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d104f7ad-b7d3-4b29-ba63-cb1ab0133604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "719c77de-ad3b-4c70-b67d-600b2216c9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "421dfd47-b60d-48b2-bd51-a83f3073ed87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/9b571430-234d-41e8-b4e7-2ccdcfb35931")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -0.86 0)
+			(end -0.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a453cda0-f928-47be-bf78-57f25543e947")
+		)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1a603d88-3982-45ef-a6da-e34d599bc5dd")
+		)
+		(fp_line
+			(start -0.2 0.15)
+			(end -0.2 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dcdf8a25-8545-405b-bd04-faf0857d089a")
+		)
+		(fp_line
+			(start -0.1 0.15)
+			(end -0.1 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2978181-1377-44ac-9f45-cb283d27f30b")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b69a8baf-e617-44d8-b89f-fd9a2e63d82e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "098fdde1-bf21-4247-a7d5-80f6f83945e2")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "41a272f4-db67-4153-8992-d9cc6cdf7f4d")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "2f4b5f7a-6c48-4f11-ba7a-0d7ddb6a7660")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "Net-(D2-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "92867a50-c7fc-4db9-b610-9b9850f8b2f8")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "8264281a-8ef1-432c-bd13-ae941c7389e0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "ADC:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "6e568e4b-e97e-4d7d-98bf-bce8cfd73e00")
@@ -6179,7 +6547,6 @@
 			)
 		)
 		(property ki_fp_filters "Texas*DPY0002A*")
-		(path "/17338fd7-8c09-4af6-99fb-fd5e61ea6ec4")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -7047,6 +7414,191 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Diode_SMD:D_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "8e887bb9-7015-429d-abe7-c12a002b6acc")
+		(at 184.8975 97.26)
+		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "diode")
+		(property "Reference" "D6"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "46a6d8b5-7930-4874-907e-7f04790936c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "b5a96f94-2192-4522-a493-0021e8e44913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38643a65-7774-4ffc-ad68-8180fc29988e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01dc896c-7d2a-4999-bebb-136652c08297")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f686a2f-0708-447b-a043-45455571e598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/6e73e3e0-53c4-42bf-a4b7-9c05de5ac8ec")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -0.86 0)
+			(end -0.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2fae1add-58ae-4776-a5af-514be2a8a59e")
+		)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e308ccd5-b7be-4b64-b39c-d3fac43a2353")
+		)
+		(fp_line
+			(start -0.2 0.15)
+			(end -0.2 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0c268538-d8a0-4588-b272-9cf7c8bbca7e")
+		)
+		(fp_line
+			(start -0.1 0.15)
+			(end -0.1 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae78d063-a69c-4c2a-8d07-140c99001bcd")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2222f08a-7bd6-4cbd-ba69-bd3e8ba124e4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "3549029a-1faa-4a70-83df-c4aade28658a")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "2cc31b42-3ac6-48a2-8c9d-2dbe098bbcb9")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "2131cc6b-4d8e-474d-8f83-5ff80dfbe75d")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "SCL")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "5cf00f29-d709-447e-8e18-9beadbbfeeb0")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "3d733069-0544-46ba-b893-480b76f15efb")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "97798a5e-8e26-4445-b43c-5bead86fe41b")
@@ -7102,7 +7654,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/0c6c309a-1e2d-4df2-8b8a-82420008e91f")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -7667,7 +8218,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/2f809e5e-c305-4926-ab61-506f2b5674ca")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -8177,6 +8727,164 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "a84475d5-680d-4267-b79a-68b9de7839e5")
+		(at 185.6125 104.41)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R15"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "bddb89df-75d5-4816-8ed7-354fd9e37df5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22K"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "edd93ead-bcda-423e-ad9a-e7093de4abf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af3f9ed7-f4d0-4a56-a30a-c26e5bedf210")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ee327af-5291-40f5-922c-45c8aec22f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "15b32f63-8704-428d-9b3e-06269e350469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/b7d1b42e-8cc6-4944-b455-15046160ea1e")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fa5e6fc6-f5f8-4f22-af17-22f8e73ff5cc")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "672ba9cb-fb98-4ea5-909e-5a2c8e0427a9")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a22ba081-0024-413b-8cb0-f3de2be91299")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5c62c1b7-cc74-4d1a-83ee-c83c4a27c0b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fa3ec6c4-d43b-4c59-bd5e-6a3bd74c4846")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D3-K)")
+			(pintype "passive")
+			(uuid "5ef06cd9-fa6d-41be-be87-09155d01abbb")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "ampRef")
+			(pintype "passive")
+			(uuid "2c188cf1-6fbe-43a6-acf1-73247cb9a290")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "ab189f6d-81d5-4e37-99dc-085df8cf4574")
@@ -8234,7 +8942,6 @@
 			)
 		)
 		(property ki_fp_filters "Texas*DPY0002A*")
-		(path "/936cb394-4b5e-450d-8302-e6f6e0210b60")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -8493,7 +9200,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "ampRef")
+			(net "Net-(D3-K)")
 			(pintype "passive")
 			(uuid "50cc914a-e82c-4b2e-8d36-15439e470fe6")
 		)
@@ -8567,7 +9274,6 @@
 			)
 		)
 		(property ki_fp_filters "Texas*DPY0002A*")
-		(path "/64b52b3b-e0c8-46d8-b614-9d07f27896dc")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -8674,6 +9380,376 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "c814dc02-8480-45ba-9f25-09d38939b189")
+		(at 184.8975 95.51)
+		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "diode")
+		(property "Reference" "D5"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "df33386b-7fbd-49ee-aa27-24b137804766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "c373ef07-e865-4e08-8f78-23e429774921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "942da042-ded6-48f7-b522-32c442e369a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7adeb29-8c87-4b37-a2c3-1abd05c423e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf965982-680b-44f6-b697-8daa9db3d784")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/40634e58-d01c-446d-9ae3-83fb5d88c6f1")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -0.86 0)
+			(end -0.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "09d56a44-6c11-43a0-83c7-ce3bed722ae5")
+		)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "81f86806-b758-4d58-acb9-66d8be09614b")
+		)
+		(fp_line
+			(start -0.2 0.15)
+			(end -0.2 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14ff4a33-dd78-4030-9ec9-22ddb08a10e3")
+		)
+		(fp_line
+			(start -0.1 0.15)
+			(end -0.1 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "887a80c8-98f2-478e-9492-c56606c5283f")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cf4ec1d4-45e5-4c74-92b6-4589300a54da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "ae256d73-5b30-454a-b5aa-c1fab2c75b19")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "65de971c-0622-4316-8647-af2bea38ffeb")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "eba1ba64-9de5-4179-b28e-002e75f70016")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "SDA")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "50335c47-8aa3-47a8-b7a5-40cb411558a6")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "5340d0b7-f926-4fff-983f-a391f726ff25")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "c93745a4-1958-4f2d-8854-126861670a82")
+		(at 184.8975 92.01)
+		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "diode")
+		(property "Reference" "D3"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "6481db74-db6f-4c32-a492-7ff7e3397776")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "e90f5dbe-5fc5-451a-b90a-b4aee9dc8718")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8698a2e3-f5b6-4459-bb5b-2b94f0db28da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17c5dc1a-18a6-438c-8acd-8e9f93e2af58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7e22e79-77e6-4b26-9a82-d96acd28de54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/8708a2b9-3508-4395-9ffb-eb00d9b5be45")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -0.86 0)
+			(end -0.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9d59dbc1-2414-4891-8742-8e013f4e0563")
+		)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f8e5a3e2-d6c3-452b-a3e3-1e0acf8291b9")
+		)
+		(fp_line
+			(start -0.2 0.15)
+			(end -0.2 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "309d5f3a-a1cd-4b0f-8ce9-96bfbf48a66d")
+		)
+		(fp_line
+			(start -0.1 0.15)
+			(end -0.1 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1425e3d4-3104-4ce9-ba82-402cc8131b65")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3283c1fb-7645-4ef8-a328-3b94e4adec57")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "c031d844-cbf6-42b7-8628-ee0664cddf58")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "4ba4537d-6bd5-4055-bf08-00069ce8c2a6")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "1fab8e47-bca2-4997-b141-21dc3d9ac535")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "Net-(D3-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "9780b9e8-b4a4-4e47-ad2f-19292f9334dd")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "3f263b84-e632-41da-a8e2-3638bbf11b89")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8860,7 +9936,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "500k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "03c1740e-e9f5-4591-91a0-9d58752a2fa9")
@@ -8975,7 +10051,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1B-+)")
+			(net "Net-(D2-K)")
 			(pintype "passive")
 			(uuid "8702966c-d330-4e53-8293-379e596b0160")
 		)
@@ -8990,6 +10066,507 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "d8c122ba-7672-462e-9e5e-8855d62a857b")
+		(at 185.6125 99.39)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R6"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "111abe63-4ccb-4075-922f-9d4bf683cce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22K"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "6372d1b2-0478-424c-a0dd-99011501aac6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7674a95-4add-4110-945d-c13f054df5a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "168d8fc6-053d-4df1-bac6-4d375f5b3322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "211e4eb6-16e2-4066-afde-ce9b321e0328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/09df70ec-bbc5-4ca9-8772-3b78d8c8863a")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9a696112-5be6-4044-afa0-b96c703c2a29")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f740a87e-cc03-49a5-8533-f5598cbbe9cc")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7d912a5a-ce10-4430-b927-d2580b0b725f")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "22ba4153-68de-4d4a-aec8-e7addfd94cd9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "84c477a4-3711-47dd-af3d-20785f852484")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/IN-_Prot")
+			(pintype "passive")
+			(uuid "51771f24-eb82-492f-9e33-2e77c2902b05")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D1-K)")
+			(pintype "passive")
+			(uuid "64920b98-96c9-4fdd-aa63-84a1c9a34fac")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "e047fd3d-b370-4283-91e2-1b21dd9683f7")
+		(at 185.6125 101.9)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R12"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "a54ba01c-2d8d-4fe5-9379-c2271c2cccb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22K"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "7d3e0bb7-b80a-4c24-b926-d5f6d6eae7a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78d91917-38a5-4e2c-84b7-85e4f5742473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df88b9c6-0ce9-4eda-bb99-801bf3006b5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05bb3d56-0b39-4dce-a06a-d918a5d2d937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/fb9ea355-f404-4730-9982-1341c2d0f52a")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1edf0b44-b949-4abf-ba2c-b764b3045a51")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a11aa8e3-26a1-40cc-a876-750f45ce33fa")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d937ac63-5845-4467-a582-5cd51ea539a9")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f7a91866-1bc7-4042-b1fc-9f558d6995b6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1276ad17-eab2-47d3-ab7c-54154ed312d3")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/IN+_Prot")
+			(pintype "passive")
+			(uuid "02f87dda-8aaf-4b56-b819-0128ef3f9c53")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D2-K)")
+			(pintype "passive")
+			(uuid "c7f0a9f3-c402-45cc-9251-f63c25814dbd")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "e773e3d0-4903-499a-96e8-24f39a8151a9")
+		(at 184.8975 88.51)
+		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "diode")
+		(property "Reference" "D1"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "842971b2-512d-418b-8896-e008c1ce3789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "76e596f7-3057-4267-adc9-4954473e3e16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03557887-af49-402b-86b8-dde49ce3ff55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "135b5842-bd13-4d91-888b-73d9089c7461")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75356db6-cbd8-4ca4-a471-f3183411e7fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/efcf9d39-c73e-40eb-9ce8-f855659ec237")
+		(sheetname "/")
+		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -0.86 0)
+			(end -0.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6b04d625-f796-440b-ba8c-7f2d730a7f93")
+		)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ff1c57c4-d538-4077-ad05-78274b7782b7")
+		)
+		(fp_line
+			(start -0.2 0.15)
+			(end -0.2 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "80ed01d8-8bdc-475e-ace5-38eb7cd0f124")
+		)
+		(fp_line
+			(start -0.1 0.15)
+			(end -0.1 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb37630e-f87e-4b4b-9c1f-91b2b44d7222")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "47e25394-9a53-4d77-a4f2-a40c96bd6351")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "9440ac90-8305-4585-875c-e1975cf3c463")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "732cb525-e445-4f31-9987-86861cc979c0")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "63fcc5ee-73ae-464b-8a1f-bbd019750c09")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "Net-(D1-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "37c611a3-7b50-41f1-bbb2-2d91ec80d335")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "aefc5859-4e02-442a-9506-7d931905dae6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9058,7 +10635,6 @@
 			)
 		)
 		(property ki_fp_filters "Texas*DPY0002A*")
-		(path "/b3935d87-b64c-4f41-a21b-e3dcf0745aef")
 		(sheetname "/")
 		(sheetfile "BioAmp-EXG-Pill.kicad_sch")
 		(units
@@ -9627,7 +11203,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ba0f78ea-863f-442f-aa78-2eb6d781fb94")
@@ -11773,62 +13349,6 @@
 		(uuid "fd49511d-943a-4f0f-9d98-cb88829a4227")
 	)
 	(segment
-		(start 140.4 94)
-		(end 140.425 93.975)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "22c21d21-6ed0-4aa3-bffe-074616a5557c")
-	)
-	(segment
-		(start 139.3 95.575)
-		(end 140.4 94.475)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "2ff2c4ac-cca6-4c34-bc1b-4e04c6cecb9a")
-	)
-	(segment
-		(start 135.95 95.575)
-		(end 139.3 95.575)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "4ffe9df9-d929-4285-b53e-8959d2aa8bb4")
-	)
-	(segment
-		(start 134.725 96.8)
-		(end 135.95 95.575)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "539b0bf7-f685-49c9-bbb8-9fa383acb06c")
-	)
-	(segment
-		(start 140.425 93.975)
-		(end 140.425 92.45)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "91f57b93-251f-49d9-bdb7-24fbb848256f")
-	)
-	(segment
-		(start 140.4 94.475)
-		(end 140.4 97.925)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "a3ee8dc9-0fd4-4294-9bfd-3271858c05db")
-	)
-	(segment
-		(start 140.4 94)
-		(end 140.4 94.475)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "SCL")
-		(uuid "f348830e-b4f2-495a-8c00-c7d76235cce1")
-	)
-	(segment
 		(start 134.725 99.15)
 		(end 134.725 98.7)
 		(width 0.25)
@@ -11883,6 +13403,62 @@
 		(layer "F.Cu")
 		(net "SDA")
 		(uuid "ca7aa3ed-2930-411d-b00f-5051005b22cf")
+	)
+	(segment
+		(start 140.4 94)
+		(end 140.425 93.975)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "22c21d21-6ed0-4aa3-bffe-074616a5557c")
+	)
+	(segment
+		(start 139.3 95.575)
+		(end 140.4 94.475)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "2ff2c4ac-cca6-4c34-bc1b-4e04c6cecb9a")
+	)
+	(segment
+		(start 135.95 95.575)
+		(end 139.3 95.575)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "4ffe9df9-d929-4285-b53e-8959d2aa8bb4")
+	)
+	(segment
+		(start 134.725 96.8)
+		(end 135.95 95.575)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "539b0bf7-f685-49c9-bbb8-9fa383acb06c")
+	)
+	(segment
+		(start 140.425 93.975)
+		(end 140.425 92.45)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "91f57b93-251f-49d9-bdb7-24fbb848256f")
+	)
+	(segment
+		(start 140.4 94.475)
+		(end 140.4 97.925)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "a3ee8dc9-0fd4-4294-9bfd-3271858c05db")
+	)
+	(segment
+		(start 140.4 94)
+		(end 140.4 94.475)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "SCL")
+		(uuid "f348830e-b4f2-495a-8c00-c7d76235cce1")
 	)
 	(zone
 		(net "GND")
