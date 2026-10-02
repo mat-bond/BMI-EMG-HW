@@ -9172,7 +9172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 66.04 106.3752 0)
 			(hide yes)
 			(show_name no)
@@ -12958,7 +12958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "I2C_Connector:CONN_5037630000-SD_04_MOL"
 			(at 190.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14013,7 +14013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "I2C_Connector:CONN_5037630000-SD_04_MOL"
 			(at 262.89 87.63 0)
 			(hide yes)
 			(show_name no)

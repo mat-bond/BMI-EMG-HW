@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "MAX1169") (type "KiCad") (uri "${KIPRJMOD}/component/MAX1169") (options "") (descr ""))
 	(lib (name "FPC_Connector") (type "KiCad") (uri "${KIPRJMOD}/component/FPC_Connector") (options "") (descr ""))
+	(lib (name "I2C_Connector") (type "KiCad") (uri "${KIPRJMOD}/component/I2C_connector/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
