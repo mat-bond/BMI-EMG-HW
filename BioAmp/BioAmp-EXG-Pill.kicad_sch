@@ -4157,6 +4157,12 @@
 		(uuid "05f04871-dc80-4f34-b0c6-f24c6971b12e")
 	)
 	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1256a27e-6210-43fb-84a6-0430d1151f0b")
+	)
+	(junction
 		(at 212.09 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4179,12 +4185,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31141b89-2bf0-4880-8ed9-6fc0c2b436b1")
-	)
-	(junction
-		(at 95.25 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34b043cf-2be2-4bbb-987c-9c98a1d69aa4")
 	)
 	(junction
 		(at 81.28 171.45)
@@ -4221,12 +4221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa3a1c7-3fb8-4c82-9d9b-a81c35297850")
-	)
-	(junction
-		(at 72.39 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5de74a2b-0860-4f20-8530-71fcbc6448b1")
 	)
 	(junction
 		(at 40.64 40.64)
@@ -4275,6 +4269,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8820a515-d4bb-43cd-ad23-664c06ce4aba")
+	)
+	(junction
+		(at 72.39 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a8bed82-21e4-4dbf-a9ee-ccd15eb03a44")
 	)
 	(junction
 		(at 204.47 20.32)
@@ -4678,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 38.1) (xy 95.25 38.1)
+			(xy 87.63 38.1) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5148,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 72.39 38.1)
+			(xy 80.01 38.1) (xy 72.39 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7273,6 +7273,16 @@
 		)
 		(uuid "3ec96739-0e8b-4c2d-ab4c-34555b09eb8f")
 	)
+	(label "U1A_out"
+		(at 72.39 38.1 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "544d8fcd-eb59-4fdf-94d8-d59f10068f83")
+	)
 	(label "IN-_Prot"
 		(at 49.53 40.64 0)
 		(effects
@@ -7322,6 +7332,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d993ade-841f-4255-8393-a3eb5abc7be3")
+	)
+	(label "U1B_in"
+		(at 88.9 38.1 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1ea8fdb-15c5-4680-9b56-f0c9e1db3e5e")
 	)
 	(label "ADD0"
 		(at 254 22.86 0)
@@ -8250,7 +8270,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 38.1 270)
+		(at 83.82 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8260,7 +8280,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060117bdc")
 		(property "Reference" "R7"
-			(at 80.01 36.068 90)
+			(at 83.82 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8270,7 +8290,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 80.264 38.1 90)
+			(at 84.074 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8280,7 +8300,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.01 36.322 90)
+			(at 83.82 36.322 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,7 +8311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 38.1 0)
+			(at 83.82 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8302,7 +8322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 38.1 0)
+			(at 83.82 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10005,7 +10025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 268.2748 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -10879,7 +10899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 179.3748 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -11042,7 +11062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 189.5348 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -13014,7 +13034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_522710469_MOL"
+		(property "Footprint" "FPC_Connector:CON_522710469_MOL"
 			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
