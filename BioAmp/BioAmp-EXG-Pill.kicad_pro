@@ -78,11 +78,11 @@
         ],
         [
           "lib_footprint_mismatch|140744999|90107649|b2b4b387-317a-4bfe-b3b7-ffb668db7a3f|00000000-0000-0000-0000-000000000000",
-          ""
+          "Removed extra silkscreen"
         ],
         [
           "lib_footprint_mismatch|140760000|96982350|03b5133a-dc7d-4000-9b22-3280854e267c|00000000-0000-0000-0000-000000000000",
-          ""
+          "Removed extra silkscreen"
         ]
       ],
       "meta": {
@@ -745,7 +745,7 @@
         "uuid": "6820f13c-3971-4615-b87b-c2f927031906"
       }
     ],
-    "used_designators": "H1-2,#FLG1-4,NT1-2,J1-2,J4,#PWR1-6,#PWR8-10,#PWR13-36,D1-6,C5,C8-14,IC2-3,R6,R11-20,JP1-7,U3-12",
+    "used_designators": "U3-12,JP1-7,R6,R11-20,IC2-3,C5,C8-14,D1-6,#PWR1-6,#PWR8-10,#PWR13-36,J1-2,J4,NT1-2,#FLG1-4,H1-2",
     "variants": []
   },
   "sheets": [
