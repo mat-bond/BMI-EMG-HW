@@ -1328,7 +1328,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "24f1f637-52ec-4a60-bca4-7d1a44f3bfe0")
-		(at 129.12 99.33 180)
+		(at 128.98 89.54 180)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT1"
@@ -9290,6 +9290,22 @@
 		(uuid "1c1392a3-ffe3-409b-927d-6d1346635248")
 	)
 	(segment
+		(start 129.48 89.54)
+		(end 129.48 90.79)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "5db7862a-5db9-46ee-aaad-25401c58ff06")
+	)
+	(segment
+		(start 129.48 90.79)
+		(end 129.56 90.87)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "878d58ed-022c-41ba-a3d6-da1811d0e520")
+	)
+	(segment
 		(start 135.48 97)
 		(end 135.48 97.84)
 		(width 0.25)
@@ -9320,6 +9336,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "1a9fb410-c65e-4a8c-93f1-6edee409954e")
+	)
+	(via
+		(at 129.56 90.87)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "1dd2e269-e5e4-4447-ae10-ad10de80571f")
 	)
 	(via
 		(at 135.48 97)
@@ -10434,6 +10459,14 @@
 		(uuid "7d231ba9-e7f5-4c60-b6aa-a22ae6633774")
 	)
 	(segment
+		(start 128.48 89.1)
+		(end 128.2575 88.8775)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GNDA")
+		(uuid "7f1c96b5-5846-43f2-9b19-4845277f375f")
+	)
+	(segment
 		(start 120.065 94.21)
 		(end 120.1 94.175)
 		(width 0.25)
@@ -10488,6 +10521,14 @@
 		(layer "F.Cu")
 		(net "GNDA")
 		(uuid "eb4a5c1b-e269-4767-96be-4e1bc1e2ae9e")
+	)
+	(segment
+		(start 128.48 89.54)
+		(end 128.48 89.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GNDA")
+		(uuid "fbd06dce-6ad6-4891-9651-6e1ebbcf4521")
 	)
 	(via
 		(at 123.27 91.73)
