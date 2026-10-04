@@ -5790,7 +5790,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 170.18) (xy 17.78 172.72)
+			(xy 187.96 148.59) (xy 187.96 151.13)
 		)
 		(stroke
 			(width 0)
@@ -14786,7 +14786,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 17.78 172.72 0)
+		(at 187.96 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14797,7 +14797,7 @@
 		(fields_autoplaced yes)
 		(uuid "b62b129a-0caf-4068-b2d2-8bf0095920e1")
 		(property "Reference" "#PWR03"
-			(at 17.78 179.07 0)
+			(at 187.96 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14808,7 +14808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 177.8 0)
+			(at 187.96 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14818,7 +14818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 172.72 0)
+			(at 187.96 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,7 +14829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 172.72 0)
+			(at 187.96 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14840,7 +14840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 172.72 0)
+			(at 187.96 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15861,7 +15861,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 17.78 167.64 0)
+		(at 187.96 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15872,7 +15872,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2f62e8f-0abe-4884-9080-8e5eeb648546")
 		(property "Reference" "H1"
-			(at 20.32 166.3699 0)
+			(at 190.5 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15883,7 +15883,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 20.32 167.6399 0)
+			(at 190.5 146.0499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15895,7 +15895,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 17.78 167.64 0)
+			(at 187.96 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15906,7 +15906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 167.64 0)
+			(at 187.96 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15917,7 +15917,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 17.78 167.64 0)
+			(at 187.96 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15928,7 +15928,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 17.78 167.64 0)
+			(at 187.96 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

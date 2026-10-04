@@ -74,7 +74,7 @@
       "drc_exclusions": [
         [
           "lib_footprint_mismatch|123077500|94170000|35ddfa14-e05d-4368-9505-d3662bb18efe|00000000-0000-0000-0000-000000000000",
-          "Removed pin 1 indicator "
+          "Removed extra silkscreen"
         ],
         [
           "lib_footprint_mismatch|140744999|90107649|b2b4b387-317a-4bfe-b3b7-ffb668db7a3f|00000000-0000-0000-0000-000000000000",
