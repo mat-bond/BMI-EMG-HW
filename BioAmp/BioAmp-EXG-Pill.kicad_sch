@@ -8778,6 +8778,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/TL074HIPWR?qs=eP2BKZSCXI65RHPg6a8WXg%3D%3D"
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c554e644-198c-4135-9043-2fd81de4e0fe")
 		)
@@ -8894,6 +8905,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/TL074HIPWR?qs=eP2BKZSCXI65RHPg6a8WXg%3D%3D"
+			(at 85.09 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "deda324b-6e0b-40c3-957b-12197a0c687e")
 		)
@@ -9002,6 +9024,17 @@
 		)
 		(property "Description" ""
 			(at 95.25 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/TL074HIPWR?qs=eP2BKZSCXI65RHPg6a8WXg%3D%3D"
+			(at 95.25 161.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9127,6 +9160,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/TL074HIPWR?qs=eP2BKZSCXI65RHPg6a8WXg%3D%3D"
+			(at 172.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ace340e5-1e72-4f99-aba8-50ade0016694")
 		)
@@ -9241,6 +9285,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/RC0603FR-1022KL?qs=EiqXWrxQq61e6RoATMUfKw%3D%3D"
+			(at 83.82 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eceb3a41-6d02-4bc0-9f51-32f7d6e51742")
 		)
@@ -9311,6 +9366,17 @@
 		)
 		(property "Description" ""
 			(at 53.34 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay/CRCW0603220KFHEAP?qs=a7EraS9Y3FF6XyVAZTgWrw%3D%3D"
+			(at 53.34 35.56 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9397,6 +9463,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/RC0603FR-1022KL?qs=EiqXWrxQq61e6RoATMUfKw%3D%3D"
+			(at 66.04 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b5f6dd9-bb87-4b14-a33b-e0cdbc5376fa")
 		)
@@ -9475,6 +9552,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay/CRCW0603220KFHEAP?qs=a7EraS9Y3FF6XyVAZTgWrw%3D%3D"
+			(at 104.14 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2f7135e-bdb4-47c4-aa4f-c27c63b0d86b")
 		)
@@ -9512,7 +9600,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3nF"
+		(property "Value" "4.3n"
 			(at 85.09 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,6 +9634,17 @@
 		)
 		(property "Description" ""
 			(at 85.09 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Murata-Electronics/GRM1857U1H432JA44D?qs=sGAEpiMZZMsh%252B1woXyUXjwdeALG02W9D1nop4zsZhNs%3D"
+			(at 85.09 92.71 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9632,6 +9731,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay-Draloric/RCA0603100KFKEC?qs=u16ybLDytRaehBAVAwWgUw%3D%3D"
+			(at 85.09 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "daf0cc18-d3ce-4cb5-8882-9e5c637b90c0")
 		)
@@ -9668,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 179.324 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,6 +9812,17 @@
 		)
 		(property "Description" ""
 			(at 185.42 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/KYOCERA-AVX/06035C104JAZ2A?qs=sGAEpiMZZMukHu%252BjC5l7Ya5ZltWfW2nGXUx2V11IsZk%3D"
+			(at 185.42 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9788,6 +9909,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay/TNPW06031K00FHTA?qs=X2kM3h%2FahgCZnaxn6ihJBQ%3D%3D"
+			(at 60.96 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1876a9c1-c959-40b8-a1da-080c87ca9882")
 		)
@@ -9824,7 +9956,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2uF"
+		(property "Value" "10u"
 			(at 69.85 101.3206 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,6 +9990,17 @@
 		)
 		(property "Description" ""
 			(at 69.85 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/KYOCERA-AVX/KGM15CR51C106KT?qs=Jm2GQyTW%2FbhGgzJovSiGAg%3D%3D"
+			(at 69.85 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9902,7 +10045,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 201.422 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9936,6 +10079,17 @@
 		)
 		(property "Description" ""
 			(at 195.58 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/KYOCERA-AVX/KGM15CR51C106KT?qs=Jm2GQyTW%2FbhGgzJovSiGAg%3D%3D"
+			(at 195.58 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10016,6 +10170,17 @@
 		)
 		(property "Description" ""
 			(at 81.28 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Bourns/CRT0603-BZ-1004ELF?qs=pxDZlBjcsCiRaiGe6sfQhA%3D%3D"
+			(at 81.28 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10180,6 +10345,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Bourns/CRT0603-BZ-1004ELF?qs=pxDZlBjcsCiRaiGe6sfQhA%3D%3D"
+			(at 81.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6b058e1-d52d-473b-9c93-47153c2c00d9")
 		)
@@ -10216,7 +10392,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 70.866 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10250,6 +10426,17 @@
 		)
 		(property "Description" ""
 			(at 76.2 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/KYOCERA-AVX/KGM15CR51C106KT?qs=Jm2GQyTW%2FbhGgzJovSiGAg%3D%3D"
+			(at 76.2 167.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10337,6 +10524,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/RT0603DRE07270KL?qs=8cPjvKtxWv4dh9A1v41Yjw%3D%3D"
+			(at 85.09 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2fa3c24a-174b-40c2-9875-1435e8b7727b")
 		)
@@ -10374,7 +10572,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10p"
 			(at 138.43 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,6 +10606,17 @@
 		)
 		(property "Description" ""
 			(at 138.43 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay-Vitramon/VJ0603A100JXAAP?qs=sGAEpiMZZMukHu%252BjC5l7YVIqfgEH2dnRgXM3BPbCapM%3D"
+			(at 138.43 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10452,7 +10661,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "499k"
 			(at 76.2 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10486,6 +10695,17 @@
 		)
 		(property "Description" ""
 			(at 76.2 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Bourns/CR0603-FX-4993ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RdsgSPUB5GSc%3D"
+			(at 76.2 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10553,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5037630491"
 			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10565,6 +10785,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 266.7 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Molex/503763-0491?qs=zwvsCB%2Fxu0cTZVAek%2FYVrQ%3D%3D"
 			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10657,6 +10888,17 @@
 		)
 		(property "Description" ""
 			(at 45.72 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/RC0603FR-1022KL?qs=EiqXWrxQq61e6RoATMUfKw%3D%3D"
+			(at 45.72 40.64 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10825,6 +11067,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" ""
+			(at 200.66 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df092740-34cd-4614-b070-a114cd454879")
 		)
@@ -10906,6 +11159,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/KYOCERA-AVX/KGM15CR51C106KT?qs=Jm2GQyTW%2FbhGgzJovSiGAg%3D%3D"
+			(at 200.66 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cb5f0f7-e9d9-4159-9f23-ca739c3e74ca")
 		)
@@ -10977,6 +11241,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 269.24 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay-Vitramon/VJ0402Y104JXQCW1BC?qs=sGAEpiMZZMukHu%252BjC5l7Ye76SME%252BvuyY5eHXMOf50sY%3D"
 			(at 269.24 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11301,6 +11576,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" ""
+			(at 185.42 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0c9fa0d-2c25-43d8-bd44-fd6f0543a25f")
 		)
@@ -11337,7 +11623,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "499k"
 			(at 35.56 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,6 +11657,17 @@
 		)
 		(property "Description" ""
 			(at 35.56 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Bourns/CR0603-FX-4993ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RdsgSPUB5GSc%3D"
+			(at 35.56 40.64 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12010,6 +12307,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" ""
+			(at 193.04 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ca3238d-99b2-4275-8883-8cf914b51b92")
 		)
@@ -12083,6 +12391,17 @@
 		)
 		(property "Description" "TVS diode"
 			(at 228.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
+			(at 228.6 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12249,6 +12568,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay-Vitramon/VJ0402Y104JXQCW1BC?qs=sGAEpiMZZMukHu%252BjC5l7Ye76SME%252BvuyY5eHXMOf50sY%3D"
+			(at 180.34 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f66e3f6b-d9bf-42c9-a94a-a5a82b524ede")
 		)
@@ -12322,6 +12652,17 @@
 		)
 		(property "Description" "TVS diode"
 			(at 217.17 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
+			(at 217.17 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12570,6 +12911,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Vishay-Vitramon/VJ0402Y104JXQCW1BC?qs=sGAEpiMZZMukHu%252BjC5l7Ye76SME%252BvuyY5eHXMOf50sY%3D"
+			(at 190.5 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "58beed0c-93e3-43e1-9289-1d9c16051d02")
 		)
@@ -12628,7 +12980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5037630491"
 			(at 190.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12640,6 +12992,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 190.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Molex/503763-0491?qs=zwvsCB%2Fxu0cTZVAek%2FYVrQ%3D%3D"
 			(at 190.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12823,6 +13186,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
+			(at 238.76 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2a88384d-1a40-41ca-88d5-0b9520eddb20")
 		)
@@ -12893,6 +13267,17 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 266.7 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" ""
 			(at 266.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13124,6 +13509,17 @@
 				(justify left top)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX1169BEUD%2b?qs=fnYUjNMxfVD%252BHT6g1ptIfQ%3D%3D"
+			(at 252.73 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "333ebdc2-8492-4145-9407-fa7225191401")
 		)
@@ -13242,6 +13638,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/AR0402FR-0710KL?qs=bj0ANSkawG%252B%252B5c2eib7Icg%3D%3D"
+			(at 193.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05e7b992-cf41-4afd-a8a5-76dc38c5b834")
 		)
@@ -13314,6 +13721,17 @@
 		)
 		(property "Description" ""
 			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/TL074HIPWR?qs=eP2BKZSCXI65RHPg6a8WXg%3D%3D"
+			(at 64.77 38.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13431,6 +13849,17 @@
 		)
 		(property "Description" "TVS diode"
 			(at 114.3 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
+			(at 114.3 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13674,6 +14103,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Bourns/CRT0603-BZ-1004ELF?qs=pxDZlBjcsCiRaiGe6sfQhA%3D%3D"
+			(at 119.38 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe6295ef-cb30-4980-ad6c-1d56295fcdbe")
 		)
@@ -13825,6 +14265,17 @@
 		)
 		(property "Description" "TVS diode"
 			(at 80.01 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
+			(at 80.01 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14306,6 +14757,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/AR0402FR-0710KL?qs=bj0ANSkawG%252B%252B5c2eib7Icg%3D%3D"
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95f95619-fd32-4ed2-b96f-2c8e1ae6f537")
 		)
@@ -14455,6 +14917,17 @@
 		)
 		(property "Description" ""
 			(at 109.22 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/RC0603FR-1022KL?qs=EiqXWrxQq61e6RoATMUfKw%3D%3D"
+			(at 109.22 161.29 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14940,6 +15413,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Molex/52271-0469?qs=%2FFAXCdFYqP5o9L%2FrU1%2F9ZA%3D%3D"
+			(at 229.87 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "P1"
 			(uuid "b5681b19-8e75-4a13-b880-33c30a74485f")
 		)
@@ -15102,6 +15586,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/AR0402FR-0710KL?qs=bj0ANSkawG%252B%252B5c2eib7Icg%3D%3D"
 			(at 185.42 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15432,6 +15927,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" ""
+			(at 17.78 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61ab7a9f-aa85-4917-8a31-0a5bbabb4fd3")
 		)
@@ -15669,6 +16175,17 @@
 				)
 			)
 		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D"
+			(at 40.64 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1d7d30db-7cb7-4be6-8551-e49b2d603159")
 		)
@@ -15739,6 +16256,17 @@
 		)
 		(property "Description" ""
 			(at 83.82 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.ch/en/ProductDetail/YAGEO/RC0603FR-1022KL?qs=EiqXWrxQq61e6RoATMUfKw%3D%3D"
+			(at 83.82 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

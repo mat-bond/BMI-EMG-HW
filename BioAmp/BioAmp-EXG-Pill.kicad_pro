@@ -677,6 +677,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributer Link",
+          "name": "Distributer Link",
+          "show": true
         }
       ],
       "filter_string": "",
