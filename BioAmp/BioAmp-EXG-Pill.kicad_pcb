@@ -119,6 +119,8 @@
 		)
 		(capping no)
 		(filling no)
+		(aux_axis_origin 102.87 100.33)
+		(grid_origin 102.87 100.33)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -132,7 +134,7 @@
 			(svgprecision 6)
 			(plotframeref no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -153,7 +155,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../commande_emg/bioamp/")
+			(outputdirectory "Order/")
 		)
 	)
 	(footprint "I2C_Connector:CONN_5037630000-SD_04_MOL"
