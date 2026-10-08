@@ -561,7 +561,7 @@
       "plot": "Order/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BioAmp-EXG-Pill.step",
+      "step": "../../../Desktop/BioAmp-EXG-Pill.step",
       "svg": "",
       "vrml": "../graphics/3d/BioAmp-EXG-Pill-v1.0.wrl"
     },
