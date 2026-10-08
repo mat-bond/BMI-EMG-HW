@@ -11339,7 +11339,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e67e68b-0eb1-4347-a2b5-9140cf3f5200")
 		(property "Reference" "R20"
@@ -11353,7 +11353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0k"
 			(at 200.66 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11593,7 +11593,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4da6f5e7-50fc-4d99-b8d6-4fb3bceffb50")
 		(property "Reference" "R18"
@@ -11607,7 +11607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0k"
 			(at 186.69 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12724,7 +12724,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7753ecdc-b5a0-4243-bd35-2af128d95fac")
 		(property "Reference" "R17"
@@ -12738,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0k"
 			(at 170.18 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13676,7 +13676,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ae005bbe-a618-45c6-b84f-04d06a4f1d81")
 		(property "Reference" "R21"
@@ -13690,7 +13690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0k"
 			(at 209.55 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13758,7 +13758,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b4bc667e-a432-4658-b1b0-35c8f4cb87f1")
 		(property "Reference" "R16"
@@ -13772,7 +13772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0k"
 			(at 170.18 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14323,7 +14323,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ca528aaf-bf8e-4e52-b2b1-925bd3a9ea4d")
 		(property "Reference" "R19"
@@ -14337,7 +14337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0k"
 			(at 186.69 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
